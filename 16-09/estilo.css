@@ -1,0 +1,27 @@
+body {
+    font: normal
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: darkred;
+}
+a:visited {
+    color: darkred;
+}
+a:hover {
+    text-decoration: underline;
+}
+.especial:hover {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+.especial::before {
+    content: none;
+    font-weight: lighter;
+}
+.especial::after {
+    content: none;
+    font-weight: lighter;
+}

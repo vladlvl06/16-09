@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    font: normal
+}
+h2 {
+    font-size: 2em;
+    color: darkred;
+}
+h1 {
+    color: darkred;
+
+}
+.topico {
+    text-align: right;
+}
+.texto {
+    text-align: justify;
+    font-size: 1em;
+    color: white;
+}
+#titulo-principal {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+}
